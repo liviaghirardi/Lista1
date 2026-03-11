@@ -1,0 +1,17 @@
+// Ler um número real e exibir a quinta parte deste número.
+
+import java.util.Scanner;
+
+public class ex3 {
+    public static void main(String[] args) {
+        Scanner read = new Scanner (System.in);
+        System.out.println("Digite um número: ");
+        int n1 = read.nextInt();
+
+        int qp = n1 / 5;
+
+        System.out.println("A quinta parte desse número é:  " + qp);
+
+    }
+    
+}
